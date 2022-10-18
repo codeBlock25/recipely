@@ -17,7 +17,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 1.0.0+1
+version: 0.0.1
 
 environment:
   sdk: '>=2.18.2 <3.0.0'
@@ -29,8 +29,18 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  animations: ^2.0.7
+  dio: ^4.0.6
+  get: ^4.6.5
+  get_storage: ^2.0.3
+  google_fonts: ^3.0.1
   flutter:
     sdk: flutter
+  flutter_staggered_animations: ^1.1.1
+  flutter_svg: ^1.1.5
+  unicons: ^2.1.0
+  sizer: ^2.0.15
+  wakelock: ^0.6.2
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -89,3 +99,26 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  assets:
+    - assets/images/ad1.png
+    - assets/images/app_logo.png
+    - assets/images/appetizer_recipes.jpg
+    - assets/images/baked_goods_recipes.jpg
+    - assets/images/bg.png
+    - assets/images/bottom_tab_effect.svg
+    - assets/images/bottom_tab_effect2.svg
+    - assets/images/breakfast_recipes.jpg
+    - assets/images/chef.jpg
+    - assets/images/dessert_recipes.jpg
+    - assets/images/dinner_recipes.jpg
+    - assets/images/hobiest_cook.jpg
+    - assets/images/holiday_recipes.jpg
+    - assets/images/home_cook.jpg
+    - assets/images/lunch_recipes.jpg
+    - assets/images/main_course_recipes.jpg
+    - assets/images/salad_recipes.jpg
+    - assets/images/side_dish_recipes.jpg
+    - assets/images/soup_recipes.jpg
+    - assets/images/store_board_image1.jpg
+    - assets/images/store_board_image2.jpg
+    - assets/images/store_board_image3.jpg

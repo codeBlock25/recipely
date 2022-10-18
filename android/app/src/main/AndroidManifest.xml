@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.classic_dev.recipely">
    <application
-        android:label="recipely"
+        android:label="Recipely"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
